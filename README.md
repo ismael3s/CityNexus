@@ -13,7 +13,7 @@ Have you wondered how it would be if the government created a system where it ca
 
 ## Why?
 
-I created this project to document and demonstrate my technical skills, as much of my experience hasn’t been fully represented in previous jobs. CityNexus allows me to explore and identify areas for improvement in a real-world-like scenario while building a digital portfolio to share on LinkedIn and strengthen my professional brand.
+CityNexus allows me to explore and identify areas for improvement in a real-world-like scenario while building a digital portfolio to share on LinkedIn and strengthen my professional brand.
 
 ## Goals
 
