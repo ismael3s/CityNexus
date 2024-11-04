@@ -1,0 +1,25 @@
+services:
+  rabbitmq:
+    container_name: CityNexus.Infra.RabbitMQ
+    build: ./Docker/RabbitMQ
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - ./Docker/RabbitMQ/.docker:/var/lib/rabbitmq/mnesia
+  mailpit:
+    container_name: CityNexus.Infra.MailPit
+    image: axllent/mailpit
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+  postgres:
+    container_name: CityNexus.Infra.Postgres
+    image: postgres:17
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./Docker/Postgres/.docker:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
