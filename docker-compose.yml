@@ -23,3 +23,18 @@ services:
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
+  seq:
+    container_name: CityNexus.Infra.Seq
+    image: datalust/seq:latest
+    ports:
+      - "5341:5341"
+      - "8000:80"
+    environment:
+      ACCEPT_EULA: Y
+  redis:
+    container_name: CityNexus.Infra.Redis
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    
+        
