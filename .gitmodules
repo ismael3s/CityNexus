@@ -7,3 +7,7 @@
 	path = CityNexus.Notifications
 	url = https://github.com/ismael3s/CityNexus.Notifications
 	branch = main
+[submodule "CityNexus.K8S"]
+	path = CityNexus.K8S
+	url = https://github.com/ismael3s/CityNexus.K8S
+	branch = main
