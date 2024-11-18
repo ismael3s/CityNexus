@@ -6,3 +6,6 @@
 	path = CityNexus.K8S
 	url = https://github.com/ismael3s/CityNexus.K8S
 	branch = main
+[submodule "CityNexus.Modulith"]
+	path = CityNexus.Modulith
+	url = https://github.com/ismael3s/CityNexus.Modulith
